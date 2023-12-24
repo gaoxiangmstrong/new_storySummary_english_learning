@@ -29,7 +29,7 @@ users learn english through summarized stories.
 - 论文的摘要
 
 # user-flow
-- 获得用户的兴趣分配给用户一个英文级别 -> 随机选择与之匹配级别的故事 -> 用户开始阅读到完成阅读 -> 
+- 获得用户的兴趣分配给用户一个英文级别 -> 随机选择与之匹配级别的故事 -> 数据库中提取对应的文章 -> 用户开始阅读到完成阅读时间记录 -> 更新数据库 -> 根据用户的评分来判断用户喜好以及文章之间的相关性-> 推送新文章 -> 以node的形式展示所有用户 
 
 # 数据库（news_reading）： a user reads news / users read news; a news reads by a user / multiple news read by users; Many to Many
 - users: id, username, password, email,
