@@ -31,7 +31,7 @@ users learn english through summarized stories.
 # user-flow
 - 获得用户的兴趣分配给用户一个英文级别 -> 随机选择与之匹配级别的故事 -> 用户开始阅读到完成阅读 -> 
 
-# 数据库（Mysql）： user read news
+# 数据库（Mysql）： a user reads news / users read news; a news reads by a user / multiple news read by users; Many to Many
 - users: id, username, password, email,
 - reads: user_id, news_id, time, current_time, 
 - news: id, difficulty, category, text, summary,
